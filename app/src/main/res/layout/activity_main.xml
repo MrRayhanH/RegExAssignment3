@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Personal Information:"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="1. Full Name"
+        android:inputType="text"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:drawable/editbox_background"
+        android:autofillHints="username" />
+
+    <EditText
+        android:id="@+id/et_dateofBirth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="2. Date of Birth 200-01-01"
+        android:inputType="text"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:drawable/editbox_background"
+        android:autofillHints="username" />
+    <EditText
+        android:id="@+id/et_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="3. Gender"
+        android:inputType="text"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:drawable/editbox_background"
+        android:autofillHints="username" />
+    <EditText
+        android:id="@+id/et_Marital_Status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="4. Marital Status"
+        android:inputType="text"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:drawable/editbox_background"
+        android:autofillHints="username" />
+    <EditText
+        android:id="@+id/et_Nationality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="5. Nationality"
+        android:inputType="text"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:drawable/editbox_background"
+        android:autofillHints="username" />
+    <EditText
+        android:id="@+id/et_Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="6. Address "
+        android:inputType="text"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:drawable/editbox_background"
+        android:autofillHints="username" />
+    <EditText
+        android:id="@+id/et_Phone_Number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="7. Phone Number"
+        android:inputType="text"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:drawable/editbox_background"
+        android:autofillHints="username" />
+    <EditText
+        android:id="@+id/et_Email_Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="8. Email Address"
+        android:inputType="text"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:drawable/editbox_background"
+        android:autofillHints="username" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/btn_Submit"
+        android:padding="20dp"
+        />
+
+</LinearLayout>
