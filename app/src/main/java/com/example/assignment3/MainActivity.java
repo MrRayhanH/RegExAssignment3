@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
             {
                 Toast.makeText(MainActivity.this, "only Bangladeshi", Toast.LENGTH_SHORT).show();
             }
-            else if(Address.isEmpty())
+            else if(Address.matches("[a-zA-Z0-9]+( [a-zA-Z0-9])*"))
             {
                 Toast.makeText(MainActivity.this, "Enter address", Toast.LENGTH_SHORT).show();
             }
